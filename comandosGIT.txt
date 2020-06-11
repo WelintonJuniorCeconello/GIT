@@ -1,0 +1,59 @@
+Comandos  ------------------------------------------------------------  Atribuições
+
+git version                                                             mostra a versão do GIT
+git config --global user.name "Seu Nome"                                atualiza informações dos commits
+git config --global user.email "Seu Email"                              atualiza informações dos commits
+git config user.name                                                    mostra nome de criação de commits completos
+git config user.email                                                   mostra email de criação de commits completos
+git config core.editor                                                  mostra qual editor de texto é usado
+git config --global core.editor "caminho exe do editor"                 define editor de texto     
+code                                                                    abre o editor de texto
+pwd                                                                     exibi o diretorio onde está o GIT
+cd /(diretorio)                                                         manda o GIT para um diretorio definido
+clear                                                                   limpa a tela
+ls                                                                      lista os arquivos do diretorio
+mkdir <nome da pasta>                                                   cria uma pasta no diretoiro onde está o GIT
+touch <file>                                                            cria um arquivo de nome e extensão definidos no diretoiro onde está o GIT
+touch <nome da pasta> <file>                                            cria um arquivo de nome e extensão definidos no diretoiro definido
+git init                                                                cria um repositorio local .GIT onde está o GIT
+ls -a                                                                   mostra o repositorio .GIT
+git status                                                              mostra o status dos arquivos do conteiner
+git add .                                                               adiciona ou atualiza todos os arquivos no conteiner
+git rm --cached <file>                                                  remove arquivo do conteiner
+git commit -m "comentario"                                              cria um commit ou atualiza um novo commit
+git log                                                                 mostra os commits completos feitos e onde está o HEAD
+code .                                                                  abre todos os arquivos do repositorio no editor de texto
+code <file>                                                             abre arquivo definido no editor de texto
+git log --oneline                                                       mostra os commits, hash de 7 char, feitos e onde está o HEAD
+git log --graph                                                         mostra o grafo de commits completos e onde está o HEAD
+git log --oneline --graph                                               mostra o grafo de commits simples e onde está o HEAD
+... --all                                                               exibi todos os ramos quando usa o log (ver os commits)
+git checkout <file>                                                     descarta atualização de arquivo no conteiner
+git commit -am "comentario"                                             adiciona ou atualiza todos os arquivos no conteiner e também cria um novo commit
+git branch                                                              mostra qual ramo está o GIT e onde está o HEAD
+git checkout <hash>                                                     volta para uma definida versão pelo hash e defini o HEAD para esta e esconde as versões mais atualizadas
+git checkout <ramo>                                                     volta para a versão mais atualizadas e o HEAD acompanha
+git diff                                                                mostra o que foi alterado nos arquivos
+git reset HEAD <file>                                                   desfaz a atualização do arquivo no conteiner
+git reset --hard <hash>                                                 remove um commmit
+git checkout -b <nome do ramo>                                          cria um ramo em paralelo com o primcipal
+q                                                                       quando travar o console
+git merge <ramo paralelo>                                               fusão dos ramos, tem que estar no ramo principal o HEAD acompanha
+git merge --abort                                                       aborta a fusão se tem conflito de arquivos
+git remote                                                              verifica se está no GITHUB
+git remote -v                                                           detalhes do link do repositorio no GITHUB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
