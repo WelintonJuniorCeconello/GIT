@@ -42,6 +42,8 @@ git merge <ramo paralelo>                                               fusão d
 git merge --abort                                                       aborta a fusão se tem conflito de arquivos
 git remote                                                              verifica se está no GITHUB
 git remote -v                                                           detalhes do link do repositorio no GITHUB
+git commit -m "novo comentario" --amend                                 trocar o comentario do ultimo commit
+git rebase -i                                                           trocar o comentario de um commit qualquer
 
 
 
